@@ -7,21 +7,68 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "// Submissions\n\nFeatures:\n	Give necessary files\n	search for missing files\n	Fill in base data fields\n	provide storage of templates <XML><YAML>\n	Screenshots help\n\n\nImplimentation notes:\n\n	Feature: Give necessary files\n\n		Walk directory to determine if necessary files are provided.\n\n		Choose previous game to model after\n\n	Feature: Screenshots\n\n		Provide steps of necessary screenshots\n\n		use screenshots to procure information(maybe)\n\n\n\n\nDifferent Setup:\n\n	Different games require a different setup.\n\n	Respin require mod docs\n\n\n\nNotes:\n	There is a naming convention used on all files for submissions. \n\n	There is a folder structure to the submission as well.\n\n\nNecessary Game info:\n\n	Studio\n	name\n	Agile number\n	md5sum\n	CRC\n	paytable id, odds, payout percentage, reels, numer of lines, max bet\n\n",
+			"file": "/C/Users/lfraser/Documents/submissionsApp/submissionsNotes",
+			"file_size": 845,
+			"file_write_time": 130187329683454216,
+			"settings":
+			{
+				"buffer_size": 794,
+				"line_ending": "Windows",
+				"name": "// Submissions"
+			}
+		},
+		{
+			"file": "/C/Users/lfraser/Documents/submissionsApp/Submission Application Implimenation Details",
+			"settings":
+			{
+				"buffer_size": 2136,
+				"line_ending": "Windows",
+				"name": "Submission Application Implimenation Details"
+			}
+		},
+		{
+			"contents": "\n\nXML File Tag Structure for submission:\n\n	<sFile></sFile>\n		<path></path>\n		<",
+			"file": "/C/Users/lfraser/Documents/submissionsApp/xmlNotes",
+			"file_size": 84,
+			"file_write_time": 130190868633930850,
+			"settings":
+			{
+				"buffer_size": 78,
+				"line_ending": "Windows",
+				"name": "// XML File Tag Structure for submission"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 58.0,
 		"selected_items":
 		[
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"c+",
+				"Set Syntax: C++"
+			]
 		],
-		"width": 0.0
+		"width": 392.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 126.0,
 		"history":
 		[
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')",
+			"h()",
+			"h",
+			"help()",
+			"version()",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
 		]
 	},
 	"distraction_free":
@@ -35,6 +82,27 @@
 	},
 	"file_history":
 	[
+		"/C/Users/lfraser/Documents/submissionsApp/autmateXmlFiles.py",
+		"/C/Users/lfraser/Documents/Water/mantaflow/INSTALLING",
+		"/C/Users/lfraser/Documents/Water/mantaflow/source/python/defines.py",
+		"/C/Users/lfraser/Documents/Levelset/WATER_DRIVER.cpp",
+		"/C/Users/lfraser/Documents/Levelset/WATER_DRIVER.h",
+		"/C/Users/lfraser/Documents/Levelset/WATER_EXAMPLE.cpp",
+		"/C/Users/lfraser/Documents/Levelset/WATER_EXAMPLE.h",
+		"/C/Users/lfraser/Documents/gameEngine/openvdb/openvdb/INSTALL",
+		"/C/Users/lfraser/Documents/tbb41_20130613oss/README",
+		"/C/Users/lfraser/Downloads/openexr-2.0.1/README",
+		"/C/Users/lfraser/Downloads/ilmbase-2.0.1/README",
+		"/C/Users/lfraser/Downloads/ilmbase-2.0.1/README.win32",
+		"/C/Users/lfraser/Downloads/ilmbase-2.0.1/INSTALL",
+		"/C/Users/lfraser/Downloads/openexr-2.0.1/ltmain.sh",
+		"/C/Users/lfraser/Documents/boost_1_54_0/INSTALL",
+		"//sm-file-01/Releasedata/Games/CL3/Games/Alpha/WildEscape_Bundle_5RAdjLAdjCR_302171B_130730/Docs/Graphics/Screenshots/Revslot/Revslot_M009785A_5R50L_PC85_1Line_1BPL.txt",
+		"/C/Users/lfraser/Documents/gameEngine/octree.h",
+		"/C/Users/lfraser/Documents/gameEngine/octree/octree.h",
+		"/C/Users/lfraser/Documents/gameEngine/gameengine/main.py",
+		"/C/Python33/Lib/site-packages/PyQt5/QtWidgets.pyd",
+		"/C/Users/lfraser/Documents/gameEngine/gameengine/195uminecraft.sublime-project"
 	],
 	"find":
 	{
@@ -69,8 +137,93 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/lfraser/Documents/submissionsApp/submissionsNotes",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								296
+							]
+						],
+						"settings":
+						{
+							"auto_name": "// Submissions",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 176.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/lfraser/Documents/submissionsApp/Submission Application Implimenation Details",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								927,
+								927
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Submission Application Implimenation Details",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/lfraser/Documents/submissionsApp/xmlNotes",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 78,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"auto_name": "// XML File Tag Structure for submission",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -105,6 +258,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
 	"project": "195uminecraft.sublime-project",
 	"replace":
 	{
@@ -121,11 +278,11 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -141,7 +298,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 150.0,
 	"status_bar_visible": true,
 	"template_settings":

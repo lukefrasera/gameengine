@@ -13,7 +13,7 @@ class view(QGLWidget):
 		self.setCursor(Qt.BlankCursor)
 		self.setFocusPolicy(Qt.StrongFocus)
 
-		self.timer.timeout.connect(tick)
+		self.timer.timeout.connect(self.tick)
 
 	def initializeGL(self):pass
 	def paintGL(self):pass
@@ -30,4 +30,4 @@ class view(QGLWidget):
 
 	def keyReleaseEvent(self, e):pass
 
-	def tick():pass
+	def tick(self):pass
