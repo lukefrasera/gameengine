@@ -15,7 +15,10 @@ class view(QGLWidget):
 
 		self.timer.timeout.connect(self.tick)
 
-	def initializeGL(self):pass
+	def initializeGL(self):
+		self.time.start()
+		self.timer.start(1000/60)
+		
 	def paintGL(self):pass
 	def resizeGL(self):pass
 
