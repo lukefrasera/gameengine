@@ -6,8 +6,8 @@ from PyQt5.QtCore import QTimer
 class view(QGLWidget):
 	def __init__(self):
 		super(view, self).__init__()
-		self.time = QTime
-		self.timer = QTimer
+		self.time = QTime()
+		self.timer = QTimer()
 
 		self.setMouseTracking(True)
 		self.setCursor(Qt.BlankCursor)
